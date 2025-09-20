@@ -33,7 +33,7 @@
 </h2>
 
 <p align="center">
-  <i>"Want it. Don’t need it. So I earn it."</i>
+  <i>"Enjoying and learning everday, grateful."</i>
 </p>
 
 <br/>
