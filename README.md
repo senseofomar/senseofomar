@@ -96,7 +96,7 @@
         </div>
       </td>
       <td width="50%">
-        <h3 align="center">Mini Image Filter</h3>
+        <h3 align="center">FaceSense - Expression Identification</h3>
         <div align="center">
           <p style="padding: 10px 20px;">
             A NumPy-based project that applies grayscale and blur filters to images using matrix operations
@@ -110,7 +110,7 @@
     </tr>
     <tr>
       <td width="50%">
-        <h3 align="center">Spotify Listening Trends</h3>
+        <h3 align="center"></h3>
         <div align="center">
           <p style="padding: 10px 20px;">
             Explore patterns in your Spotify history to see how your music taste evolves over time
