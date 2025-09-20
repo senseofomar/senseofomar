@@ -110,10 +110,10 @@
     </tr>
     <tr>
       <td width="50%">
-        <h3 align="center"></h3>
+        <h3 align="center">PathwayGPT</h3>
         <div align="center">
           <p style="padding: 10px 20px;">
-            Explore patterns in your Spotify history to see how your music taste evolves over time
+            A ChatGPT style AI chatbot for Lord of Mysteries
           </p>
           <p>
             <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
