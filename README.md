@@ -33,7 +33,7 @@
 </h2>
 
 <p align="center">
-  <i>"Learning everday, grateful."</i>
+  <i>"Learning something new everday, grateful."</i>
 </p>
 
 <br/>
