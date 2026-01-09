@@ -1,147 +1,111 @@
-<!-- Header with gradient banner -->
+<!-- Header banner -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3498db,9b59b6,e67e22,f1c40f&height=150&section=header&animation=fadeIn" width="100%">
 </div>
 
 <div align="center">
-  <h1 align="center" style="border: 0;margin-top: -70px;">
-    <b>Omar Shaikh</b>
-  </h1>
-  
-  <p align="center" style="margin-top: -5px;font-size: 26px;">
-    <em>AI Engineer</em>
-  </p>
+  <h1 style="margin-top: -70px;"><b>Omar Shaikh</b></h1>
+  <p style="font-size: 22px;"><em>AI / Machine Learning Engineer</em></p>
 </div>
 
-<!-- Professional social badge -->
 <div align="center">
   <a href="https://www.linkedin.com/in/senseofomar/">
-    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 </div>
 
 <br/>
-<br/>
 
-<!-- Neural network divider -->
+---
+
+## 👋 About Me
+
+I’m an aspiring **AI Engineer** focused on **learning by building real systems**, not just models.
+
+I work hands-on with **data pipelines, vector search, embeddings, and ML-driven applications**, reverse-engineering real-world architectures to understand how AI systems behave beyond notebooks.
+
+- 🧠 Strong Python foundation with applied ML thinking  
+- 🔍 Interested in retrieval-augmented generation (RAG), embeddings, and AI tooling  
+- 🧪 I value **clarity, observability, and correctness** over hype  
+- 🚀 Goal: transition into an entry-level AI / ML engineering role
+
+---
+
+## 🛠️ Tech Stack
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+**Core**
+<br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+
+<br/><br/>
+
+**Machine Learning & Data**
+<br/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+<img src="https://img.shields.io/badge/FAISS-0468D7?style=for-the-badge&logo=meta&logoColor=white"/>
+<img src="https://img.shields.io/badge/Embeddings-6C3483?style=for-the-badge"/>
+
+<br/><br/>
+
+**Tools**
+<br/>
+<img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+
 </div>
 
-<h2 align="center">
-  <b>About Me</b>
-</h2>
+---
 
-<p align="center">
-  <i>"Learning something new everday, grateful."</i>
-</p>
+## 🚀 Featured Projects
 
-<br/>
+### 📚 **BookFriend**  
+**AI-Powered Reading Companion & Semantic Search System**
 
-- 🧠 Learning AI by reverse-engineering real projects
-- 🧪 I work with Python, Jupyter, NumPy, Pandas, Matplotlib, and scikit-learn
-- 💻 Passionate about building before memorizing — projects are my textbooks
-- 🚀 On a mission to turn curiosity into clean code and confidence
+BookFriend is a **production-style AI application** that enables semantic search and contextual interaction over book content using embeddings and vector similarity.
 
-<br/>
-<br/>
+**Highlights**
+- 🔎 Semantic search using **FAISS**
+- 🧠 Embedding-based retrieval pipeline
+- 🗂️ Persistent vector index & metadata mapping
+- 🧪 Designed with a clean `src/` architecture
+- 📈 Focus on system behavior, not just model output
 
-<!-- Neural network divider -->
+**Tech**
+`Python` · `FAISS` · `Embeddings` · `Data Pipelines`
+
+---
+
+### 🎭 **FaceSense**  
+**End-to-End Facial Emotion Recognition System**
+
+FaceSense is a **computer vision pipeline** that performs real-time facial emotion analysis and logs emotional telemetry for analysis.
+
+**Highlights**
+- 📷 Real-time face detection & emotion inference
+- 🧠 Uses pre-trained deep learning models
+- 📊 Emotion logging & analytics-ready data
+- 🧱 Built like a deployable system, not a demo
+
+**Tech**
+`Python` · `OpenCV` · `Deep Learning` · `Data Logging`
+
+---
+
+## 📌 What I’m Focusing On Now
+
+- Retrieval-Augmented Generation (RAG)
+- Embedding quality & evaluation
+- Designing AI systems that **fail gracefully**
+- Improving ML intuition through implementation
+
+---
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+  <br/>
+  <i>"In AI, clarity beats cleverness. Systems matter more than slogans."</i>
 </div>
-
-<h2 align="center">
-  <b>Tech Stack</b>
-</h2>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white" alt="Matplotlib" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white" alt="PyCharm" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
-
-<br/>
-
-<!-- Neural network divider -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-</div>
-
-<h2 align="center">
-  <b>Featured Projects</b>
-</h2>
-
-<div class="projects" align="center">
-  <table cellspacing="0" cellpadding="0" style="border-spacing: 15px;">
-    <tr>
-      <td width="50%">
-        <h3 align="center">YouTube History Analyzer</h3>
-        <div align="center">
-          <p style="padding: 10px 20px;">
-            Analyze your personal YouTube watch data using Pandas to uncover trends and habits
-          </p>
-          <p>
-            <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
-          </p>
-        </div>
-      </td>
-      <td width="50%">
-        <h3 align="center">FaceSense - Expression Identification</h3>
-        <div align="center">
-          <p style="padding: 10px 20px;">
-            A NumPy-based project that applies grayscale and blur filters to images using matrix operations
-          </p>
-          <p>
-            <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-            <img src="https://img.shields.io/badge/PIL-FF5733?style=for-the-badge&logo=python&logoColor=white"/>
-          </p>
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%">
-        <h3 align="center">PathwayGPT</h3>
-        <div align="center">
-          <p style="padding: 10px 20px;">
-            A ChatGPT style AI chatbot for Lord of Mysteries
-          </p>
-          <p>
-            <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white"/>
-          </p>
-        </div>
-      </td>
-      <td width="50%">
-        <h3 align="center">DSA in Python</h3>
-        <div align="center">
-          <p style="padding: 10px 20px;">
-            A growing collection of common algorithms and data structures implemented in Python
-          </p>
-          <p>
-            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Clean%20Code-FF6B6B?style=for-the-badge&logo=clean&logoColor=white"/>
-          </p>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<!-- Neural network divider -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-</div>
-
-<p align="center" style="margin: 20px 0;">
-  <i>"In the world of AI, it's not magic. It's math, mindset, and momentum."</i>
-</p>
