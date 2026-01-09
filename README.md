@@ -1,16 +1,20 @@
-<!-- Header banner -->
+<!-- Subtle animated header -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3498db,9b59b6,e67e22,f1c40f&height=150&section=header&animation=fadeIn" width="100%">
+  <img 
+    src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2c3e50,34495e&height=120&section=header&animation=fadeIn" 
+    width="100%"
+  />
 </div>
 
 <div align="center">
-  <h1 style="margin-top: -70px;"><b>Omar Shaikh</b></h1>
-  <p style="font-size: 22px;"><em>AI / Machine Learning Engineer</em></p>
-</div>
+  <h1 style="margin-top: -55px; font-weight: 700;">Omar Shaikh</h1>
+  <p style="font-size: 18px; color: #555;">AI Engineer</p>
 
-<div align="center">
   <a href="https://www.linkedin.com/in/senseofomar/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    <img 
+      src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"
+      alt="LinkedIn"
+    />
   </a>
 </div>
 
@@ -18,94 +22,86 @@
 
 ---
 
-## 👋 About Me
+## About
 
-I’m an aspiring **AI Engineer** focused on **learning by building real systems**, not just models.
+I’m an **AI Engineer** focused on building **practical, system-oriented AI applications**.
 
-I work hands-on with **data pipelines, vector search, embeddings, and ML-driven applications**, reverse-engineering real-world architectures to understand how AI systems behave beyond notebooks.
+My learning approach is hands-on: I reverse-engineer real-world architectures, work through data and failure cases, and design pipelines that behave predictably outside of notebooks.
 
-- 🧠 Strong Python foundation with applied ML thinking  
-- 🔍 Interested in retrieval-augmented generation (RAG), embeddings, and AI tooling  
-- 🧪 I value **clarity, observability, and correctness** over hype  
-- 🚀 Goal: transition into an entry-level AI / ML engineering role
+I care about:
+- clear data flow  
+- observable system behavior  
+- correctness over cleverness  
 
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-**Core**
-<br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-
-<br/><br/>
-
-**Machine Learning & Data**
-<br/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-<img src="https://img.shields.io/badge/FAISS-0468D7?style=for-the-badge&logo=meta&logoColor=white"/>
-<img src="https://img.shields.io/badge/Embeddings-6C3483?style=for-the-badge"/>
-
-<br/><br/>
-
-**Tools**
-<br/>
-<img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-
-</div>
+Currently preparing for an **entry-level AI engineering role**.
 
 ---
 
-## 🚀 Featured Projects
+## Technical Focus
 
-### 📚 **BookFriend**  
-**AI-Powered Reading Companion & Semantic Search System**
+**Programming & Data**
+- Python
+- NumPy, Pandas
+- Data preprocessing & transformation
 
-BookFriend is a **production-style AI application** that enables semantic search and contextual interaction over book content using embeddings and vector similarity.
+**Machine Learning**
+- Classical ML fundamentals
+- Embeddings & vector similarity
+- Retrieval-Augmented Generation (RAG)
 
-**Highlights**
-- 🔎 Semantic search using **FAISS**
-- 🧠 Embedding-based retrieval pipeline
-- 🗂️ Persistent vector index & metadata mapping
-- 🧪 Designed with a clean `src/` architecture
-- 📈 Focus on system behavior, not just model output
-
-**Tech**
-`Python` · `FAISS` · `Embeddings` · `Data Pipelines`
-
----
-
-### 🎭 **FaceSense**  
-**End-to-End Facial Emotion Recognition System**
-
-FaceSense is a **computer vision pipeline** that performs real-time facial emotion analysis and logs emotional telemetry for analysis.
-
-**Highlights**
-- 📷 Real-time face detection & emotion inference
-- 🧠 Uses pre-trained deep learning models
-- 📊 Emotion logging & analytics-ready data
-- 🧱 Built like a deployable system, not a demo
-
-**Tech**
-`Python` · `OpenCV` · `Deep Learning` · `Data Logging`
+**Systems & Tooling**
+- FAISS
+- Structured project layouts (`src/`)
+- Git, PyCharm, Jupyter
 
 ---
 
-## 📌 What I’m Focusing On Now
+## Selected Projects
+
+### **BookFriend**
+*Semantic Search & AI Reading Companion*
+
+BookFriend is a production-style AI system that enables semantic search over book content using vector embeddings.
+
+**What I built**
+- Embedding generation and storage pipeline
+- FAISS-based similarity search
+- Persistent vector index with metadata mapping
+- Clean `src/` architecture designed for extensibility
+
+**Why it matters**
+This project taught me how retrieval systems behave at scale, how embedding quality affects results, and how to design AI components as **systems**, not scripts.
+
+**Tech:** Python · FAISS · Embeddings · Data Pipelines
+
+---
+
+### **FaceSense**
+*End-to-End Facial Emotion Recognition System*
+
+FaceSense is a computer vision pipeline for real-time facial emotion analysis with structured logging.
+
+**What I built**
+- Real-time face detection and emotion inference
+- Emotion telemetry logging for downstream analysis
+- Pipeline-style design rather than a single-file demo
+
+**Why it matters**
+This project pushed me beyond “model output” into thinking about inference stability, data collection, and system behavior in real conditions.
+
+**Tech:** Python · OpenCV · Deep Learning · Data Logging
+
+---
+
+## Current Learning Direction
 
 - Retrieval-Augmented Generation (RAG)
-- Embedding quality & evaluation
-- Designing AI systems that **fail gracefully**
-- Improving ML intuition through implementation
+- Embedding evaluation and failure cases
+- Designing AI systems that degrade gracefully
+- Writing cleaner, more testable Python
 
 ---
 
 <div align="center">
-  <br/>
-  <i>"In AI, clarity beats cleverness. Systems matter more than slogans."</i>
+  <sub>Last updated: 2026</sub>
 </div>
