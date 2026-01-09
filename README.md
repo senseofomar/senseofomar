@@ -9,7 +9,7 @@
   </h1>
   
   <p align="center" style="margin-top: -5px;font-size: 26px;">
-    <em>AI/ML Engineer</em>
+    <em>AI Engineer</em>
   </p>
 </div>
 
@@ -33,12 +33,12 @@
 </h2>
 
 <p align="center">
-  <i>"Enjoying and learning everday, grateful."</i>
+  <i>"Learning everday, grateful."</i>
 </p>
 
 <br/>
 
-- 🧠 Learning AI/ML by reverse-engineering real projects
+- 🧠 Learning AI by reverse-engineering real projects
 - 🧪 I work with Python, Jupyter, NumPy, Pandas, Matplotlib, and scikit-learn
 - 💻 Passionate about building before memorizing — projects are my textbooks
 - 🚀 On a mission to turn curiosity into clean code and confidence
