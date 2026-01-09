@@ -4,8 +4,8 @@
 </div>
 
 <div align="center">
-  <h1 style="margin-top: -60px;"><b>Omar Shaikh</b></h1>
-  <p style="font-size: 22px;"><em>AI / Machine Learning Engineer</em></p>
+  <h1 style="margin-top:-55px;"><b>Omar Shaikh</b></h1>
+  <p style="font-size:20px;"><em>AI Engineer</em></p>
 
   <a href="https://www.linkedin.com/in/senseofomar/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -18,45 +18,45 @@
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
 </div>
 
-<!-- ===================== ABOUT ===================== -->
-## 👋 About Me
+## 👋 About
 
-I’m an aspiring **AI Engineer** who believes AI is built through **systems, not slogans**.
+I’m an aspiring **AI Engineer** who focuses on **how AI systems behave in reality**, not just how models perform in isolation.
 
-I focus on **learning by building real, end-to-end projects** — understanding how data flows, how models behave in practice, and how AI systems fail, recover, and scale beyond notebooks.
+I build **end-to-end pipelines** — from data ingestion and preprocessing to inference, storage, and analysis — to understand failure modes, trade-offs, and system constraints that don’t show up in tutorials.
 
-I enjoy reverse-engineering production-style architectures involving **data pipelines, embeddings, vector search, and ML-driven applications**, with an emphasis on clarity, correctness, and observability.
+My learning philosophy is simple:  
+**if it doesn’t break, log, scale, or degrade, it’s not a real system yet.**
 
-**What defines my approach**
-- 🧠 Strong Python fundamentals with applied ML intuition  
-- 🔍 Deep interest in embeddings, RAG, and retrieval systems  
-- 🧪 I value **clean architecture and system behavior** over hype  
-- 🚀 Goal: transition into an entry-level AI / ML engineering role  
-
-<p align="center"><i>"Learning something new every day, grateful."</i></p>
+**What I care about**
+- Designing ML pipelines that are debuggable and observable  
+- Understanding embeddings, vector search, and retrieval systems deeply  
+- Treating models as components, not the product itself  
+- Writing code that explains *why*, not just *what*  
 
 <br/>
 
-<!-- ===================== TECH STACK ===================== -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
-</div>
-
-## 🛠️ Tech Stack
+## 🛠️ Technical Stack
 
 <div align="center">
 
-### Core
+**Core**
+<br/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
 
-### Machine Learning & Data
+<br/>
+
+**Machine Learning & Retrieval**
+<br/>
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
 <img src="https://img.shields.io/badge/FAISS-0468D7?style=for-the-badge&logo=meta&logoColor=white"/>
 <img src="https://img.shields.io/badge/Embeddings-6C3483?style=for-the-badge"/>
 
-### Tools
+<br/>
+
+**Tooling**
+<br/>
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
 <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
@@ -65,7 +65,6 @@ I enjoy reverse-engineering production-style architectures involving **data pipe
 
 <br/>
 
-<!-- ===================== PROJECTS ===================== -->
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
 </div>
@@ -73,60 +72,41 @@ I enjoy reverse-engineering production-style architectures involving **data pipe
 ## 🚀 Featured Projects
 
 ### 🎭 FaceSense  
-**End-to-End Facial Emotion Recognition System**
+**End-to-End Facial Emotion Recognition Pipeline**
 
-FaceSense is a **production-style computer vision pipeline** for real-time facial emotion recognition, designed to go beyond simple inference demos.
+FaceSense is a **system-level computer vision project** built to study real-time emotion recognition beyond static predictions.
 
-**Key Highlights**
-- 📷 Real-time face detection and emotion inference  
-- 🧠 Deep learning-based emotion classification  
-- 📊 Emotion telemetry logging for downstream analysis  
-- 🧱 Structured like a deployable system, not a notebook  
+It handles the full loop: capture → inference → logging → analysis, treating emotion data as telemetry rather than output.
 
-**Tech:** `Python` · `OpenCV` · `Deep Learning` · `Data Logging`
+**What makes it interesting**
+- Real-time face detection and emotion inference  
+- Deep learning models used as interchangeable components  
+- Structured emotion logging for downstream analytics  
+- Built to observe stability, latency, and noise in predictions  
+
+**Stack:**  
+`Python` · `OpenCV` · `Deep Learning` · `Data Logging`
 
 ---
 
 ### 📚 BookFriend  
-**AI-Powered Reading Companion & Semantic Search System**
+**Semantic Search & Retrieval System for Books**
 
-BookFriend enables **semantic search and contextual interaction over book content**, built around embeddings and vector similarity.
+BookFriend is a **retrieval-first AI application** designed to explore how embeddings behave at scale.
 
-**Key Highlights**
-- 🔎 Semantic search using **FAISS**
-- 🧠 Embedding-based retrieval pipeline  
-- 🗂️ Persistent vector index with metadata mapping  
-- 🧪 Clean `src/` architecture focused on system behavior  
+Instead of keyword matching, it relies on vector similarity and metadata mapping to surface contextually relevant content.
 
-**Tech:** `Python` · `FAISS` · `Embeddings` · `Data Pipelines`
+**What makes it interesting**
+- FAISS-backed semantic search  
+- Embedding pipelines with persistent vector indices  
+- Clear separation between ingestion, indexing, and querying  
+- Emphasis on retrieval quality and system structure  
 
----
-
-### 🧠 PathwayGPT  
-**Domain-Specific Conversational AI**
-
-A ChatGPT-style assistant designed for structured fictional knowledge domains, focusing on retrieval-based reasoning and conversational flow.
-
----
-
-### 🧩 DSA in Python  
-**Algorithms & Data Structures**
-
-A growing collection of clean, well-explained implementations of common data structures and algorithms in Python.
-
----
-
-## 📌 What I’m Focused On Now
-
-- Retrieval-Augmented Generation (RAG)
-- Embedding quality, similarity, and evaluation  
-- Designing AI systems that **fail gracefully**
-- Strengthening ML intuition through implementation  
+**Stack:**  
+`Python` · `FAISS` · `Embeddings` · `Vector Search`
 
 <br/>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
-  <br/>
-  <i>"In AI, clarity beats cleverness. Systems matter more than slogans."</i>
 </div>
