@@ -20,7 +20,7 @@
 
 ## 👋 About
 
-I’m an aspiring **AI Engineer** who focuses on **how AI systems behave in reality**, not just how models perform in isolation.
+I’m an **AI Engineer** who focuses on **how AI systems behave in reality**, not just how models perform in isolation.
 
 I build **end-to-end pipelines** — from data ingestion and preprocessing to inference, storage, and analysis — to understand failure modes, trade-offs, and system constraints that don’t show up in tutorials.
 
