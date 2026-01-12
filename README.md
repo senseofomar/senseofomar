@@ -39,31 +39,50 @@ My learning philosophy is simple:
 
 <div align="center">
 
-**Core**
-<br/>
+### 🧠 Core Programming & Data
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/OOP-4B8BBE?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/DSA-2C3E50?style=for-the-badge"/>
 
-<br/>
+<br/><br/>
 
-**Machine Learning & Retrieval**
-<br/>
+### 🤖 Machine Learning & Deep Learning
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+
+<br/><br/>
+
+### 🧩 GenAI, RAG & Semantic Search
+<img src="https://img.shields.io/badge/RAG-6C3483?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/FAISS-0468D7?style=for-the-badge&logo=meta&logoColor=white"/>
-<img src="https://img.shields.io/badge/Embeddings-6C3483?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Vector_Embeddings-512BD4?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Prompt_Engineering-1ABC9C?style=for-the-badge"/>
 
-<br/>
+<br/><br/>
 
-**Tooling**
-<br/>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
-<img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white"/>
+### 👁️ Computer Vision
+<img src="https://img.shields.io/badge/OpenCV-27338E?style=for-the-badge&logo=opencv&logoColor=white"/>
+<img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge"/>
+
+<br/><br/>
+
+### 🗄️ Data & Persistence
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+
+<br/><br/>
+
+### 🛠️ Tools & Platforms
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white"/>
 
 </div>
 
-<br/>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
