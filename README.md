@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-  <h1 style="margin-top:-55px;"><b>Omar Shaikh</b></h1>
+  <h1 style="margin-top:-40px;"><b>Omar Shaikh</b></h1>
   <p style="font-size:20px;"><em>AI Engineer</em></p>
 
   <a href="https://www.linkedin.com/in/senseofomar/">
@@ -12,11 +12,13 @@
   </a>
 </div>
 
-<br/>
+---
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
 </div>
+
+---
 
 ## 👋 About
 
@@ -25,76 +27,90 @@ I’m an **AI Engineer** who focuses on **how AI systems behave in reality**, no
 I build **end-to-end pipelines** — from data ingestion and preprocessing to inference, storage, and analysis — to understand failure modes, trade-offs, and system constraints that don’t show[...] 
 
 My learning philosophy is simple:  
-**if it doesn’t break, log, scale, or degrade, it’s not a real system yet.**
+**If it doesn’t break, log, scale, or degrade, it’s not a real system yet.**
 
-**What I care about**
+### What I care about
 - Designing ML pipelines that are debuggable and observable  
 - Understanding embeddings, vector search, and retrieval systems deeply  
 - Treating models as components, not the product itself  
 - Writing code that explains *why*, not just *what*  
 
-<br/>
+---
 
 ## 🛠️ Technical Stack
 
-<div align="center">
+<div>
 
 ### 🧠 Core Programming & Data
+<p align="center">
 <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/NumPy-444444?style=for-the-badge&logo=numpy&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pandas-888888?style=for-the-badge&logo=pandas&logoColor=white"/>
 <img src="https://img.shields.io/badge/OOP-444444?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/DSA-CCCCCC?style=for-the-badge"/>
+</p>
 
-<br/><br/>
+---
 
 ### 🤖 Machine Learning & Deep Learning
+<p align="center">
 <img src="https://img.shields.io/badge/PyTorch-444444?style=for-the-badge&logo=pytorch&logoColor=white"/>
 <img src="https://img.shields.io/badge/scikit--learn-888888?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
 <img src="https://img.shields.io/badge/TensorFlow-CCCCCC?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+</p>
 
-<br/><br/>
+---
 
 ### 🧩 GenAI, RAG & Semantic Search
+<p align="center">
 <img src="https://img.shields.io/badge/RAG-444444?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/FAISS-888888?style=for-the-badge&logo=meta&logoColor=white"/>
 <img src="https://img.shields.io/badge/Vector_Embeddings-444444?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Prompt_Engineering-CCCCCC?style=for-the-badge"/>
+</p>
 
-<br/><br/>
+---
 
 ### 👁️ Computer Vision
+<p align="center">
 <img src="https://img.shields.io/badge/OpenCV-444444?style=for-the-badge&logo=opencv&logoColor=white"/>
 <img src="https://img.shields.io/badge/MediaPipe-888888?style=for-the-badge"/>
+</p>
 
-<br/><br/>
+---
 
 ### 🗄️ Data & Persistence
+<p align="center">
 <img src="https://img.shields.io/badge/MySQL-444444?style=for-the-badge&logo=mysql&logoColor=white"/>
+</p>
 
-<br/><br/>
+---
 
 ### 🛠️ Tools & Platforms
+<p align="center">
 <img src="https://img.shields.io/badge/Git-444444?style=for-the-badge&logo=git&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github"/>
 <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white"/>
 <img src="https://img.shields.io/badge/Jupyter-888888?style=for-the-badge&logo=jupyter&logoColor=white"/>
 <img src="https://img.shields.io/badge/Google_Colab-CCCCCC?style=for-the-badge&logo=googlecolab&logoColor=white"/>
+</p>
 
 </div>
+
+---
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
 </div>
 
+---
+
 ## 🚀 Featured Projects
 
-### 🎭 FaceSense  
+### 🎭 FaceSense
 **End-to-End Facial Emotion Recognition Pipeline**
 
-FaceSense is a **system-level computer vision project** built to study real-time emotion recognition beyond static predictions.
-
-It handles the full loop: capture → inference → logging → analysis, treating emotion data as telemetry rather than output.
+FaceSense is a **system-level computer vision project** built to study real-time emotion recognition beyond static predictions. It handles the full loop: capture → inference → logging → analysis, treating emotion data as telemetry rather than output.
 
 **What makes it interesting**
 - Real-time face detection and emotion inference  
@@ -107,12 +123,10 @@ It handles the full loop: capture → inference → logging → analysis, treati
 
 ---
 
-### 📚 BookFriend  
+### 📚 BookFriend
 **Semantic Search & Retrieval System for Books**
 
-BookFriend is a **retrieval-first AI application** designed to explore how embeddings behave at scale.
-
-Instead of keyword matching, it relies on vector similarity and metadata mapping to surface contextually relevant content.
+BookFriend is a **retrieval-first AI application** designed to explore how embeddings behave at scale. Instead of keyword matching, it relies on vector similarity and metadata mapping to surface contextually relevant content.
 
 **What makes it interesting**
 - FAISS-backed semantic search  
@@ -123,7 +137,7 @@ Instead of keyword matching, it relies on vector similarity and metadata mapping
 **Stack:**  
 `Python` · `FAISS` · `Embeddings` · `Vector Search`
 
-<br/>
+---
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
