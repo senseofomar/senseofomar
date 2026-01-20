@@ -1,6 +1,6 @@
 <!-- ===================== HEADER ===================== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,444444,888888,CCCCCC&height=160&section=header&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,001f3f,1a2944,33415c,ffffff&height=160&section=header&animation=fadeIn" width="100%"/>
 </div>
 
 <div align="center">
