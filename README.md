@@ -1,39 +1,21 @@
 <!-- ===================== HEADER ===================== -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:ffffff&height=160&section=header&animation=fadeIn" width="100%"/>
-</div>
-
-<div align="center">
   <h1 style="margin-top:-40px;"><b>Omar Shaikh</b></h1>
   <p style="font-size:20px;"><em>AI Engineer</em></p>
-
   <a href="https://www.linkedin.com/in/senseofomar/">
     <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 </div>
 
----
+<hr style="border: none; border-top: 2px solid #fff; opacity:0.12; margin: 40px 0 20px 0;"/>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
-</div>
+## 👋 About Me
 
----
+AI Engineer focused on building robust, production-ready, and scalable machine learning systems, not just isolated models. Passionate about retrieval systems (RAG, semantic search, embeddings), modular pipelines, and hands-on deployment for real-world impact. Pythonista, clean code enthusiast.
 
-## 👋 About
-
-I’m an **AI Engineer** who focuses on **how AI systems behave in reality**, not just how models perform in isolation.
-
-I build **end-to-end pipelines** — from data ingestion and preprocessing to inference, storage, and analysis — to understand failure modes, trade-offs, and system constraints that don’t show[...] 
-
-My learning philosophy is simple:  
-**If it doesn’t break, log, scale, or degrade, it’s not a real system yet.**
-
-### What I care about
-- Designing ML pipelines that are debuggable and observable  
-- Understanding embeddings, vector search, and retrieval systems deeply  
-- Treating models as components, not the product itself  
-- Writing code that explains *why*, not just *what*  
+> **Philosophy:**  
+> *If it doesn’t break, log, scale, or degrade, it’s not a real system yet.*
 
 ---
 
@@ -105,40 +87,42 @@ My learning philosophy is simple:
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Highlight Projects
 
 ### 🎭 FaceSense
 **End-to-End Facial Emotion Recognition Pipeline**
 
-FaceSense is a **system-level computer vision project** built to study real-time emotion recognition beyond static predictions. It handles the full loop: capture → inference → logging → analysis, treating emotion data as telemetry rather than output.
-
-**What makes it interesting**
-- Real-time face detection and emotion inference  
-- Deep learning models used as interchangeable components  
-- Structured emotion logging for downstream analytics  
-- Built to observe stability, latency, and noise in predictions  
-
-**Stack:**  
-`Python` · `OpenCV` · `Deep Learning` · `Data Logging`
+- Real-time face detection & emotion inference  
+- Modular components, logs emotions like telemetry  
+- Built to observe stability, latency, noise  
+- Stack: Python, OpenCV, Deep Learning, Data Logging
 
 ---
 
 ### 📚 BookFriend
 **Semantic Search & Retrieval System for Books**
 
-BookFriend is a **retrieval-first AI application** designed to explore how embeddings behave at scale. Instead of keyword matching, it relies on vector similarity and metadata mapping to surface contextually relevant content.
+- RAG system for intelligent Q&A on books  
+- FAISS-backed semantic search, persistent vector indices  
+- Emphasis on modular, scalable architecture  
+- Stack: Python, FAISS, Embeddings, Vector Search
 
-**What makes it interesting**
-- FAISS-backed semantic search  
-- Embedding pipelines with persistent vector indices  
-- Clear separation between ingestion, indexing, and querying  
-- Emphasis on retrieval quality and system structure  
+---
 
-**Stack:**  
-`Python` · `FAISS` · `Embeddings` · `Vector Search`
+## 🎓 Education & Certifications
+
+- **Bachelor of Computer Application (BCA), 2023–2026**  
+  College of Computer Science and IT, Latur
+
+- **Certifications:**  
+  - Microsoft Certified: Azure AI Fundamentals  
+  - Microsoft Certified: Azure AI Engineer Associate  
+  - Python Programming Fundamentals with Data Science and AI/ML (MKCL)
 
 ---
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
+  <sub>
+    <kbd>Email:</kbd> omarworks247@gmail.com &nbsp; | &nbsp; <kbd>Location:</kbd> Latur, Maharashtra, India
+  </sub>
 </div>
