@@ -1,135 +1,127 @@
-<!-- ===================== HEADER ===================== -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:ffffff&height=160&section=header&animation=fadeIn" width="100%"/>
-  
-  <h1 style="margin-top:-40px;"><b>Omar Shaikh</b></h1>
-  <p style="font-size:20px;"><em>AI Engineer • Systems Thinker • Builder</em></p>
+### Hi there 👋
 
+[![](https://github.com/omarshaikh/omarshaikh/blob/main/chat.svg)](https://www.linkedin.com/in/senseofomar/)
+
+<h3 align="center">AI Engineer | Systems Thinker | Azure Certified</h3>
+
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Building+Production+AI+Systems;Retrieval-Augmented+Generation+(RAG);Computer+Vision+%26+Deep+Learning;Azure+AI+Engineer+Associate" alt="Typing SVG" /></a>
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/senseofomar/">
-    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="mailto:omarworks247@gmail.com">
-    <img src="https://img.shields.io/badge/Email-444444?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-</div>
-
-<hr style="border: none; border-top: 2px solid #fff; opacity:0.12; margin: 40px 0 20px 0;"/>
-
-## 👋 About Me
-
-I’m an **AI Engineer who enjoys building complete systems**, not just training models.
-
-My work sits at the intersection of **Machine Learning, Computer Vision, and Generative AI**, with a strong focus on:
-- **Retrieval-Augmented Generation (RAG)**
-- **Semantic search & vector systems**
-- **Modular, production-ready pipelines**
-- **Clean architecture and maintainable code**
-
-I care about *latency, failure modes, observability,* and *how things behave in the real world* — not just benchmark scores.  
-Most of my learning happens **while building**, breaking, refactoring, and scaling systems.
-
----
-
-## 🧠 What I’m Focused On
-
-- Designing **end-to-end AI pipelines** (ingestion → retrieval → inference → persistence)
-- Making LLM systems **grounded, debuggable, and extensible**
-- Real-time **computer vision systems** with performance constraints
-- Turning experimental ML ideas into **usable software**
-
----
-
-## 🛠️ Technical Stack
-
-### Core
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OOP-444444?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/DSA-888888?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/MySQL-444444?style=for-the-badge&logo=mysql&logoColor=white"/>
-</p>
-
-### Machine Learning & AI
-<p align="center">
-  <img src="https://img.shields.io/badge/PyTorch-444444?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/scikit--learn-888888?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow-CCCCCC?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-</p>
-
-### Generative AI & Retrieval
-<p align="center">
-  <img src="https://img.shields.io/badge/RAG-444444?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/FAISS-888888?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Vector_Embeddings-444444?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Prompt_Engineering-CCCCCC?style=for-the-badge"/>
-</p>
-
-### Computer Vision
-<p align="center">
-  <img src="https://img.shields.io/badge/OpenCV-444444?style=for-the-badge&logo=opencv&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MediaPipe-888888?style=for-the-badge"/>
-</p>
-
-### Tools & Platforms
-<p align="center">
-  <img src="https://img.shields.io/badge/Git-444444?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github"/>
-  <img src="https://img.shields.io/badge/Jupyter-888888?style=for-the-badge&logo=jupyter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Google_Colab-CCCCCC?style=for-the-badge&logo=googlecolab&logoColor=white"/>
 </p>
 
 ---
 
-## 🚀 Highlight Projects
+### 🧠 The Philosophy
+I am an **AI Engineer** who believes in building complete systems, not just training models in notebooks. My work sits at the intersection of **Machine Learning, Computer Vision, and Generative AI**.
 
-### 📚 **BookFriend**
-**AI-Powered Book Reading & Retrieval System**
-
-- Built a **Retrieval-Augmented Generation (RAG)** system for intelligent book Q&A
-- FAISS-backed semantic search with persistent vector indices
-- Context-aware, spoiler-safe responses grounded in retrieved passages
-- Modular architecture designed for extensibility and multi-book support
-
-**Focus:** retrieval quality, system design, and real-world usability  
-**Stack:** Python, FAISS, Embeddings, LLMs
+- **Focus:** RAG Pipelines, Semantic Search, Latency Optimization.
+- **Goal:** Turning experimental ML ideas into scalable, maintainable software.
+- **Currently:** Scaling modular inference pipelines using PyTorch and Azure.
 
 ---
 
-### 🎭 **FaceSense**
-**Real-Time Facial Expression & Emotion Analysis**
-
-- End-to-end facial analysis pipeline on live video streams
-- Dynamic subject filtering to reduce background noise and false positives
-- Emotion telemetry logging for analysis and visualization
-- Designed with performance, latency, and stability in mind
-
-**Focus:** real-time inference, robustness, observability  
-**Stack:** Python, OpenCV, Deep Learning, MySQL
-
----
-
-## 📊 GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=omarshaikh&show_icons=true&theme=default&hide_border=true" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omarshaikh&layout=compact&hide_border=true" width="48%"/>
+### ☁️ Certifications
+<p align="left">
+  <a href="#">
+    <img src="https://img.shields.io/badge/Microsoft_Certified-Azure_AI_Engineer_Associate-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Microsoft_Certified-Azure_AI_Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+  </a>
 </p>
 
 ---
 
-## 🤝 Let’s Build
+### 🛠️ Technical Arsenal
 
-I enjoy collaborating on:
-- AI systems with **real users**
-- Retrieval, search, and LLM tooling
-- Computer vision with practical constraints
-- Projects where **engineering quality matters**
+<table align="center">
+  <tr>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="65" height="65" />
+      <br>Python
+    </td>
+    <td align="center" width="96">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg" alt="icon" width="65" height="65" />
+      <br>PyTorch
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/azure-icon.svg" alt="icon" width="65" height="65" />
+      <br>Azure AI
+    </td>
+    <td align="center" width="96">
+      <img src="https://user-images.githubusercontent.com/30186107/28458732-b7535526-6de9-11e7-9d7e-2eb0fa62e87c.png" alt="icon" width="65" height="65" />
+      <br>OpenCV
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" />
+      <br>MySQL
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="icon" width="65" height="65" />
+      <br>TensorFlow
+    </td>
+    <td align="center" width="96">
+      <img src="https://avatars.githubusercontent.com/u/14101776?s=200&v=4" alt="icon" width="65" height="65" />
+      <br>Scikit
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="65" height="65" />
+      <br>Git
+    </td>
+    <td align="center" width="96">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="icon" width="65" height="65" />
+      <br>Jupyter
+    </td>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/facebookresearch/faiss/main/faiss_logo.png" alt="icon" width="65" height="65" />
+      <br>FAISS
+    </td>
+  </tr>
+</table>
 
-If that sounds aligned — feel free to reach out.
+---
 
-<div align="center">
-  <sub>
-    <kbd>Email:</kbd> omarworks247@gmail.com &nbsp; • &nbsp;
-    <kbd>Location:</kbd> India
-  </sub>
-</div>
+### 🚀 Highlight Projects
+
+#### 📚 **[BookFriend](https://github.com/omarshaikh/bookfriend)** | *Generative AI & RAG*
+> *An AI-powered Q&A assistant that reads books so you don't have to.*
+- **Core Tech:** Built a **Retrieval-Augmented Generation (RAG)** pipeline using **FAISS** for vector storage.
+- **Intelligence:** Integrated LLMs to provide spoiler-aware, context-grounded answers.
+- **Architecture:** Features session persistence and memory management for long-form conversations.
+
+#### 🎭 **[FaceSense](https://github.com/omarshaikh/facesense)** | *Computer Vision*
+> *Real-time facial expression analytics pipeline.*
+- **Performance:** Engineered a high-inference speed pipeline using **DeepFace** and **OpenCV**.
+- **Logic:** Implemented dynamic geometric filtering to isolate primary subjects in crowded frames.
+- **Analytics:** Logs emotion confidence scores to **MySQL** with a Streamlit dashboard for live visualization.
+
+---
+
+### 📊 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=omarshaikh&show_icons=true&theme=gotham&hide_border=true&count_private=true" width="48%" alt="Omar's stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omarshaikh&layout=compact&theme=gotham&hide_border=true" width="48%" alt="Omar's languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=omarshaikh&theme=gotham&hide_border=true" alt="Omar's streak" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/omarshaikh/omarshaikh/output/github-contribution-grid-snake.svg" alt="Snake animation" width="100%"/>
+</p>
+
+<p align="center">
+ <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=omarshaikh&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Omar's trophies" /></a>
+</p>
