@@ -8,12 +8,14 @@
     
     /* Animations */
     .typing { animation: fade-in-out 1.5s infinite; }
+    
+    /* REMOVED 'transform' from keyframes to prevent overriding the SVG positioning */
     .msg-1 { opacity: 0; animation: show-msg 0.5s forwards 1.5s; }
     .msg-2 { opacity: 0; animation: show-msg 0.5s forwards 3.5s; }
     .msg-3 { opacity: 0; animation: show-msg 0.5s forwards 5.5s; }
 
     @keyframes fade-in-out { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
-    @keyframes show-msg { to { opacity: 1; transform: translateY(0); } }
+    @keyframes show-msg { to { opacity: 1; } } /* Fixed: Removed transform: translateY(0) */
 
     @media (prefers-color-scheme: dark) {
       .bubble { fill: #2d333b; }
