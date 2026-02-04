@@ -33,7 +33,7 @@
 
   <g transform="translate(20, 70)" class="msg-1">
     <rect width="450" height="40" rx="12" class="bubble" />
-    <text x="15" y="26">Hi! I'm an AI Engineer &amp; Systems Thinker 👋</text>
+    <text x="15" y="26">Hi! I'm an AI Engineer👋</text>
   </g>
 
   <g transform="translate(300, 125)" class="msg-2">
