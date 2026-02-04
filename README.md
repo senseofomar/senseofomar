@@ -1,91 +1,93 @@
-### Ya Hello 👋
+<div align="center">
+  
+  <img src="https://github.com/senseofomar/senseofomar/blob/main/chat.svg" width="600" />
 
-[![](https://github.com/senseofomar/senseofomar/blob/main/chat.svg)](https://www.linkedin.com/in/senseofomar/)
+  <h2 align="center">AI Engineer | Systems Thinker | RAG Specialist</h2>
 
-<h3 align="center">A techie passionate about AI </h3>
+  <p align="center">
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Building+FaceSense+%26+BookFriend;Optimizing+RAG+Pipelines;Exploring+Generative+AI;Crafting+Production+Systems&center=true&vCenter=true" alt="Typing SVG" /></a>
+  </p>
 
-<p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=AI+Engineer;Systems+Thinker;RAG+Specialist;Building+FaceSense+%26+BookFriend" alt="Typing SVG" /></a>
-</p>
+  <p align="center">
+    <a href="https://www.linkedin.com/in/senseofomar/"><img width="32px" alt="LinkedIn" title="Connect on LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+    &#8287;&#8287;&#8287;&#8287;
+    <a href="mailto:omarworks247@gmail.com"><img width="32px" alt="Email" title="Email Me" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  </p>
 
-<br>
-
-- 😄 I have interests in **RAG / Computer Vision / Generative AI / System Design**
-- 🔭 I’m currently working on **BookFriend** (AI-Powered Reading Assistant)
-- 🌱 I’m currently learning **Advanced Vector Embeddings & Semantic Search**
-- 👯 I’m looking to collaborate on **End-to-End AI Pipelines**
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/senseofomar/"><img width="32px" alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="mailto:omarworks247@gmail.com"><img width="32px" alt="Email" title="Email Me" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</p>
+</div>
 
 <br/>
 
-<details open> 
-  <summary><h2>🛠️ My Favorite Tools</h2></summary>
+### 🚀 What I'm up to
+- 🔭 Working on **BookFriend** (AI-Powered Reading Assistant with RAG)
+- 🌱 Deep diving into **Advanced Vector Embeddings & Semantic Search**
+- 👯 Open to collaboration on **End-to-End AI Pipelines**
+- 🛠️ Previously built **FaceSense** (Real-Time Emotion Analysis)
 
-  <h3>👨‍💻 Languages & Core</h3>
-  <p>
-      <a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-14354C.svg?logo=python&logoColor=white"></a>
-      <a href="#"><img alt="SQL" src="https://custom-icon-badges.demolab.com/badge/SQL-025E8C.svg?logo=database&logoColor=white"></a>
-      <a href="#"><img alt="OOP" src="https://img.shields.io/badge/OOP-FF7F00.svg?logo=codeigniter&logoColor=white"></a>
-      <a href="#"><img alt="DSA" src="https://img.shields.io/badge/DSA-000000.svg?logo=codewars&logoColor=white"></a>
-  </p>
+<br/>
 
-  <h3>🧠 AI & Machine Learning</h3>
-  <p>
-      <a href="#"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C.svg?logo=pytorch&logoColor=white"></a>
-      <a href="#"><img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-FF6F00.svg?logo=TensorFlow&logoColor=white"></a>
-      <a href="#"><img alt="Scikit-Learn" src="https://img.shields.io/badge/Scikit_Learn-F7931E.svg?logo=scikit-learn&logoColor=white"></a>
-      <a href="#"><img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-5C3EE8.svg?logo=opencv&logoColor=white"></a>
-      <a href="#"><img alt="FAISS" src="https://img.shields.io/badge/FAISS-00ADD8.svg?logo=meta&logoColor=white"></a>
-  </p>
+<h2 align="center">🛠️ My Favorite Tools & Technologies</h2>
 
-  <h3>🧰 Tools & Platforms</h3>
-  <p>
-      <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git-F05033.svg?logo=git&logoColor=white"></a>
-      <a href="#"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717.svg?logo=github&logoColor=white"></a>
-      <a href="#"><img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626.svg?logo=Jupyter&logoColor=white"></a>
-      <a href="#"><img alt="MySQL" src="https://img.shields.io/badge/MySQL-000000.svg?logo=mysql&logoColor=white"></a>
-      <a href="#"><img alt="Google Colab" src="https://img.shields.io/badge/Google%20Colab-F9AB00.svg?logo=googlecolab&logoColor=white"></a>
-  </p>
-</details>
-
-<details> 
-  <summary><h2>📊 Github Stats and Activity</h2></summary>
-
-  <h3>💻 GitHub Profile Stats</h3>
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Omar's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=senseofomar&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/></a>
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Omar's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=senseofomar&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook" height="192px"/></a>
-  <br/>
-
-  <h3>⚡ Recent GitHub Activity</h3>
-  <a href="https://github.com/senseofomar"><img src="https://github-readme-streak-stats.herokuapp.com?user=senseofomar&theme=gotham&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="streak stats"/></a>
-
-</details>
-
-<br>
-<h2>🚀 Highlight Projects</h2>
-
+<div style="display: flex; align-items: flex-start; align: center">
 <table align="center">
   <tr>
-    <td align="center">
-        <h3>📚 BookFriend</h3>
-        <p><strong>AI-Powered Book Reading Assistant</strong></p>
-        <p>Engineered a RAG system using FAISS & LLMs for intelligent book Q&A.</p>
-        <img src="https://skillicons.dev/icons?i=python,pytorch" width="40" height="40"/>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
+      <br>Python
     </td>
-    <td align="center">
-        <h3>🎭 FaceSense</h3>
-        <p><strong>Real-Time Emotion Analysis</strong></p>
-        <p>Facial analysis pipeline using OpenCV & DeepFace with dynamic filtering.</p>
-        <img src="https://skillicons.dev/icons?i=opencv,mysql" width="40" height="40"/>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=pytorch" width="48" height="48" alt="PyTorch" />
+      <br>PyTorch
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" />
+      <br>TensorFlow
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=opencv" width="48" height="48" alt="OpenCV" />
+      <br>OpenCV
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
+      <br>MySQL
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
+      <br>Docker
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+      <br>Git
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" />
+      <br>GitHub
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" alt="FastAPI" />
+      <br>FastAPI
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=bash" width="48" height="48" alt="Bash" />
+      <br>Bash
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=sklearn" width="48" height="48" alt="Scikit-Learn" />
+      <br>Scikit
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
+      <br>VS Code
     </td>
   </tr>
 </table>
+</div>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/senseofomar/senseofomar/output/github-contribution-grid-snake.svg" alt="snake animation" style="max-width: 100%;">
+<h2 align="center">📊 Contributions</h2>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/senseofomar/senseofomar/output/github-contribution-grid-snake.svg" alt="snake animation" style="max-width: 100%;">
+</div>
