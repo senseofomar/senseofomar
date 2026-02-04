@@ -87,7 +87,3 @@
 
 <br/>
 
-<h2 align="center">📊 Contributions</h2>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/senseofomar/senseofomar/output/github-contribution-grid-snake.svg" alt="snake animation" style="max-width: 100%;">
-</div>
