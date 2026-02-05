@@ -1,50 +1,69 @@
-<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="380" viewBox="0 0 600 380" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .bubble { fill: #e9e9eb; }
+    /* Light Mode Styles */
+    .bubble-bot { fill: #F6F8FA; stroke: #e1e4e8; stroke-width: 1px; }
     .bubble-user { fill: #0078D4; }
-    .text-user { fill: #ffffff; font-weight: bold; }
-    text { fill: #242424; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    a { fill: #0079ff; }
     
-    /* Animations */
-    .typing { animation: fade-in-out 1.5s infinite; }
-    
-    /* REMOVED 'transform' from keyframes to prevent overriding the SVG positioning */
-    .msg-1 { opacity: 0; animation: show-msg 0.5s forwards 1.5s; }
-    .msg-2 { opacity: 0; animation: show-msg 0.5s forwards 3.5s; }
-    .msg-3 { opacity: 0; animation: show-msg 0.5s forwards 5.5s; }
-
-    @keyframes fade-in-out { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
-    @keyframes show-msg { to { opacity: 1; } } /* Fixed: Removed transform: translateY(0) */
-
-    @media (prefers-color-scheme: dark) {
-      .bubble { fill: #2d333b; }
-      text { fill: #c9d1d9; }
-      .bubble-user { fill: #0078D4; }
-      .text-user { fill: #ffffff; }
-      a { fill: #58a6ff; }
+    /* Font Settings - Professional & Clean */
+    .text-bot { 
+      fill: #24292e; 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
+      font-size: 14px; 
+      line-height: 1.5;
     }
+    .text-user { 
+      fill: #ffffff; 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
+      font-size: 14px; 
+      font-weight: 600; 
+    }
+    
+    /* Dark Mode Styles */
+    @media (prefers-color-scheme: dark) {
+      .bubble-bot { fill: #161b22; stroke: #30363d; }
+      .text-bot { fill: #c9d1d9; }
+      .bubble-user { fill: #1f6feb; }
+      .text-user { fill: #f0f6fc; }
+    }
+
+    /* Animation: Subtle Fade & Slide Up */
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(10px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .msg-1 { animation: fadeIn 0.6s ease-out forwards; animation-delay: 0.5s; opacity: 0; }
+    .msg-2 { animation: fadeIn 0.6s ease-out forwards; animation-delay: 2.0s; opacity: 0; }
+    .msg-3 { animation: fadeIn 0.6s ease-out forwards; animation-delay: 4.0s; opacity: 0; }
+    .msg-4 { animation: fadeIn 0.6s ease-out forwards; animation-delay: 6.0s; opacity: 0; }
   </style>
 
-  <g transform="translate(380, 20)">
-    <rect width="200" height="40" rx="12" class="bubble-user" />
-    <text x="15" y="26" class="text-user">Who is Omar?</text>
+  <g transform="translate(240, 10)" class="msg-1">
+    <rect width="350" height="45" rx="12" class="bubble-user" />
+    <text x="20" y="28" class="text-user">Hi Omar! I see a lot of AI work here.</text>
   </g>
 
-  <g transform="translate(20, 70)" class="msg-1">
-    <rect width="450" height="40" rx="12" class="bubble" />
-    <text x="15" y="26">Hi! I'm an AI Engineer👋</text>
+  <g transform="translate(10, 70)" class="msg-2">
+    <rect width="500" height="75" rx="12" class="bubble-bot" />
+    <text x="20" y="30" class="text-bot">
+      <tspan x="20" dy="0">I'm a self-taught developer &amp; final-year student. I specialize</tspan>
+      <tspan x="20" dy="22">in building end-to-end AI systems, focusing heavily on</tspan>
+      <tspan x="20" dy="22" font-weight="bold">RAG pipelines and Computer Vision.</tspan>
+    </text>
   </g>
 
-  <g transform="translate(300, 125)" class="msg-2">
-    <rect width="280" height="40" rx="12" class="bubble-user" />
-    <text x="15" y="26" class="text-user">What are you working on?</text>
+  <g transform="translate(260, 160)" class="msg-3">
+    <rect width="330" height="45" rx="12" class="bubble-user" />
+    <text x="20" y="28" class="text-user">Interesting. What are you building now?</text>
   </g>
 
-  <g transform="translate(20, 180)" class="msg-3">
-    <rect width="500" height="90" rx="12" class="bubble" />
-    <text x="15" y="30">I build end-to-end AI systems:</text>
-    <text x="15" y="55">1. RAG pipelines &amp; Semantic Search</text>
-    <text x="15" y="80">2. Real-time Computer Vision (FaceSense)</text>
+  <g transform="translate(10, 220)" class="msg-4">
+    <rect width="540" height="95" rx="12" class="bubble-bot" />
+    <text x="20" y="30" class="text-bot">
+      <tspan x="20" dy="0">I'm currently scaling <tspan font-weight="bold">BookFriend</tspan>, a RAG assistant for querying</tspan>
+      <tspan x="20" dy="22">books intelligently. I also built <tspan font-weight="bold">FaceSense</tspan> for real-time</tspan>
+      <tspan x="20" dy="22">emotion analysis. I love turning research into shipping code.</tspan>
+    </text>
   </g>
+
 </svg>
