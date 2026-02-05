@@ -1,56 +1,76 @@
-<svg width="600" height="420" viewBox="0 0 600 420" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    /* Light Mode Styles */
-    .bubble-bot { fill: #e9e9eb; }
-    .bubble-user { fill: #0078D4; }
-    .text-bot { fill: #242424; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; }
-    .text-user { fill: #ffffff; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; }
-    
-    /* Dark Mode Styles */
-    @media (prefers-color-scheme: dark) {
-      .bubble-bot { fill: #2d333b; }
-      .text-bot { fill: #c9d1d9; }
-      .bubble-user { fill: #0078D4; }
-      .text-user { fill: #ffffff; }
-    }
+<svg width="600" height="420" viewBox="0 0 600 420"
+     xmlns="http://www.w3.org/2000/svg">
 
-    /* Animation Keyframes */
-    @keyframes fadeIn {
-      0% { opacity: 0; transform: translateY(10px); }
-      100% { opacity: 1; transform: translateY(0); }
-    }
+  <!-- ===== Message 1 ===== -->
+  <g transform="translate(350, 20)" opacity="0">
+    <animate attributeName="opacity"
+      from="0" to="1"
+      dur="0.5s"
+      begin="0.5s"
+      fill="freeze"/>
 
-    /* Animation Delays */
-    .msg-1 { animation: fadeIn 0.5s ease-out forwards; animation-delay: 0.5s; opacity: 0; }
-    .msg-2 { animation: fadeIn 0.5s ease-out forwards; animation-delay: 2.0s; opacity: 0; }
-    .msg-3 { animation: fadeIn 0.5s ease-out forwards; animation-delay: 4.0s; opacity: 0; }
-    .msg-4 { animation: fadeIn 0.5s ease-out forwards; animation-delay: 6.0s; opacity: 0; }
-  </style>
-
-  <g transform="translate(350, 20)" class="msg-1">
-    <rect width="230" height="40" rx="18" class="bubble-user" />
-    <text x="15" y="26" class="text-user">Tell me about yourself!</text>
+    <rect width="230" height="40" rx="18" fill="#0078D4"/>
+    <text x="15" y="26"
+          fill="#ffffff"
+          font-size="15"
+          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-weight="600">
+      Tell me about yourself!
+    </text>
   </g>
 
-  <g transform="translate(20, 75)" class="msg-2">
-    <rect width="460" height="65" rx="18" class="bubble-bot" />
-    <text x="18" y="28" class="text-bot">
+  <!-- ===== Message 2 ===== -->
+  <g transform="translate(20, 75)" opacity="0">
+    <animate attributeName="opacity"
+      from="0" to="1"
+      dur="0.5s"
+      begin="2s"
+      fill="freeze"/>
+
+    <rect width="460" height="65" rx="18" fill="#e9e9eb"/>
+    <text x="18" y="28"
+          fill="#242424"
+          font-size="15"
+          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
       <tspan x="18" dy="0">Hey! I'm a self-taught dev &amp; aspiring AI Engineer</tspan>
       <tspan x="18" dy="22">in my final year. I love solving hard problems. ⚡</tspan>
     </text>
   </g>
 
-  <g transform="translate(320, 155)" class="msg-3">
-    <rect width="260" height="40" rx="18" class="bubble-user" />
-    <text x="15" y="26" class="text-user">What are you building lately?</text>
+  <!-- ===== Message 3 ===== -->
+  <g transform="translate(320, 155)" opacity="0">
+    <animate attributeName="opacity"
+      from="0" to="1"
+      dur="0.5s"
+      begin="4s"
+      fill="freeze"/>
+
+    <rect width="260" height="40" rx="18" fill="#0078D4"/>
+    <text x="15" y="26"
+          fill="#ffffff"
+          font-size="15"
+          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-weight="600">
+      What are you building lately?
+    </text>
   </g>
 
-  <g transform="translate(20, 210)" class="msg-4">
-    <rect width="500" height="85" rx="18" class="bubble-bot" />
-    <text x="18" y="28" class="text-bot">
+  <!-- ===== Message 4 ===== -->
+  <g transform="translate(20, 210)" opacity="0">
+    <animate attributeName="opacity"
+      from="0" to="1"
+      dur="0.5s"
+      begin="6s"
+      fill="freeze"/>
+
+    <rect width="500" height="85" rx="18" fill="#e9e9eb"/>
+    <text x="18" y="28"
+          fill="#242424"
+          font-size="15"
+          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
       <tspan x="18" dy="0">I'm deep into RAG systems right now. 🛠️</tspan>
-      <tspan x="18" dy="22">Building <tspan font-weight="bold">BookFriend</tspan> to chat with books, and refining</tspan>
-      <tspan x="18" dy="22"><tspan font-weight="bold">FaceSense</tspan> for real-time emotion recognition.</tspan>
+      <tspan x="18" dy="22">Building <tspan font-weight="600">BookFriend</tspan> to chat with books, and refining</tspan>
+      <tspan x="18" dy="22"><tspan font-weight="600">FaceSense</tspan> for real-time emotion recognition.</tspan>
     </text>
   </g>
 
