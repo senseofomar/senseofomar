@@ -1,32 +1,32 @@
 <svg width="600" height="380" viewBox="0 0 600 380" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    /* Clean, Professional Styling */
-    .bubble-bot { fill: #F6F8FA; stroke: #E1E4E8; stroke-width: 1px; }
+    /* Light Mode Styles */
+    .bubble-bot { fill: #F6F8FA; stroke: #e1e4e8; stroke-width: 1px; }
     .bubble-user { fill: #0078D4; }
     
-    /* Font: Using standard system fonts to prevent rendering errors */
+    /* Font Settings - Professional & Clean */
     .text-bot { 
-      fill: #24292E; 
+      fill: #24292e; 
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
       font-size: 14px; 
       line-height: 1.5;
     }
     .text-user { 
-      fill: #FFFFFF; 
+      fill: #ffffff; 
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
       font-size: 14px; 
       font-weight: 600; 
     }
     
-    /* Dark Mode Support */
+    /* Dark Mode Styles */
     @media (prefers-color-scheme: dark) {
-      .bubble-bot { fill: #161B22; stroke: #30363D; }
-      .text-bot { fill: #C9D1D9; }
-      .bubble-user { fill: #1F6FEB; }
-      .text-user { fill: #F0F6FC; }
+      .bubble-bot { fill: #161b22; stroke: #30363d; }
+      .text-bot { fill: #c9d1d9; }
+      .bubble-user { fill: #1f6feb; }
+      .text-user { fill: #f0f6fc; }
     }
 
-    /* Smooth Slide-Up Animation */
+    /* Animation: Subtle Fade & Slide Up */
     @keyframes fadeIn {
       0% { opacity: 0; transform: translateY(10px); }
       100% { opacity: 1; transform: translateY(0); }
@@ -38,29 +38,31 @@
     .msg-4 { animation: fadeIn 0.6s ease-out forwards; animation-delay: 6.0s; opacity: 0; }
   </style>
 
-  <g transform="translate(240, 20)" class="msg-1">
-    <rect width="340" height="50" rx="12" class="bubble-user" />
-    <text x="20" y="30" class="text-user">Hi Omar! I see a lot of AI work here.</text>
+  <g transform="translate(240, 10)" class="msg-1">
+    <rect width="350" height="45" rx="12" class="bubble-user" />
+    <text x="20" y="28" class="text-user">Hi Omar! I see a lot of AI work here.</text>
   </g>
 
-  <g transform="translate(20, 90)" class="msg-2">
-    <rect width="510" height="80" rx="12" class="bubble-bot" />
+  <g transform="translate(10, 70)" class="msg-2">
+    <rect width="500" height="75" rx="12" class="bubble-bot" />
     <text x="20" y="30" class="text-bot">
-      <tspan x="20" dy="0">Hey! I'm a self-taught dev &amp; final-year student.</tspan>
-      <tspan x="20" dy="24">I specialize in <tspan font-weight="bold">RAG pipelines</tspan> and <tspan font-weight="bold">Computer Vision</tspan>.</tspan>
+      <tspan x="20" dy="0">I'm a self-taught developer &amp; final-year student. I specialize</tspan>
+      <tspan x="20" dy="22">in building end-to-end AI systems, focusing heavily on</tspan>
+      <tspan x="20" dy="22" font-weight="bold">RAG pipelines and Computer Vision.</tspan>
     </text>
   </g>
 
-  <g transform="translate(250, 190)" class="msg-3">
-    <rect width="330" height="50" rx="12" class="bubble-user" />
-    <text x="20" y="30" class="text-user">That's a hot stack. Any active projects?</text>
+  <g transform="translate(260, 160)" class="msg-3">
+    <rect width="330" height="45" rx="12" class="bubble-user" />
+    <text x="20" y="28" class="text-user">Interesting. What are you building now?</text>
   </g>
 
-  <g transform="translate(20, 260)" class="msg-4">
-    <rect width="540" height="80" rx="12" class="bubble-bot" />
+  <g transform="translate(10, 220)" class="msg-4">
+    <rect width="540" height="95" rx="12" class="bubble-bot" />
     <text x="20" y="30" class="text-bot">
-      <tspan x="20" dy="0">Two main ones: <tspan font-weight="bold">BookFriend</tspan> (a RAG reading assistant)</tspan>
-      <tspan x="20" dy="24">and <tspan font-weight="bold">FaceSense</tspan> for real-time emotion analysis.</tspan>
+      <tspan x="20" dy="0">I'm currently scaling <tspan font-weight="bold">BookFriend</tspan>, a RAG assistant for querying</tspan>
+      <tspan x="20" dy="22">books intelligently. I also built <tspan font-weight="bold">FaceSense</tspan> for real-time</tspan>
+      <tspan x="20" dy="22">emotion analysis. I love turning research into shipping code.</tspan>
     </text>
   </g>
 
