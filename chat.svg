@@ -1,8 +1,8 @@
-<svg width="600" height="420" viewBox="0 0 600 420"
+<svg width="600" height="320" viewBox="0 0 600 320"
      xmlns="http://www.w3.org/2000/svg">
 
   <!-- ===== Message 1 ===== -->
-  <g transform="translate(350, 20)" opacity="0">
+  <g transform="translate(350, 15)" opacity="0">
     <animate attributeName="opacity"
       from="0" to="1"
       dur="0.5s"
@@ -13,24 +13,25 @@
     <text x="15" y="26"
           fill="#ffffff"
           font-size="15"
-          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-          font-weight="600">
+          font-weight="600"
+          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
       Tell me about yourself!
     </text>
   </g>
 
   <!-- ===== Message 2 ===== -->
-  <g transform="translate(20, 75)" opacity="0">
+  <g transform="translate(20, 65)" opacity="0">
     <animate attributeName="opacity"
       from="0" to="1"
       dur="0.5s"
       begin="2s"
       fill="freeze"/>
 
-    <rect width="460" height="65" rx="18" fill="#e9e9eb"/>
-    <text x="18" y="28"
+    <rect width="460" height="64" rx="18" fill="#e9e9eb"/>
+    <text x="18" y="26"
           fill="#242424"
           font-size="15"
+          font-weight="500"
           font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
       <tspan x="18" dy="0">Hey! I'm a self-taught dev &amp; aspiring AI Engineer</tspan>
       <tspan x="18" dy="22">in my final year. I love solving hard problems. ⚡</tspan>
@@ -38,7 +39,7 @@
   </g>
 
   <!-- ===== Message 3 ===== -->
-  <g transform="translate(320, 155)" opacity="0">
+  <g transform="translate(320, 145)" opacity="0">
     <animate attributeName="opacity"
       from="0" to="1"
       dur="0.5s"
@@ -49,24 +50,25 @@
     <text x="15" y="26"
           fill="#ffffff"
           font-size="15"
-          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-          font-weight="600">
+          font-weight="600"
+          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
       What are you building lately?
     </text>
   </g>
 
   <!-- ===== Message 4 ===== -->
-  <g transform="translate(20, 210)" opacity="0">
+  <g transform="translate(20, 195)" opacity="0">
     <animate attributeName="opacity"
       from="0" to="1"
       dur="0.5s"
       begin="6s"
       fill="freeze"/>
 
-    <rect width="500" height="85" rx="18" fill="#e9e9eb"/>
-    <text x="18" y="28"
+    <rect width="500" height="82" rx="18" fill="#e9e9eb"/>
+    <text x="18" y="26"
           fill="#242424"
           font-size="15"
+          font-weight="500"
           font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
       <tspan x="18" dy="0">I'm deep into RAG systems right now. 🛠️</tspan>
       <tspan x="18" dy="22">Building <tspan font-weight="600">BookFriend</tspan> to chat with books, and refining</tspan>
