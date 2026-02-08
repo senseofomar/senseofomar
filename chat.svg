@@ -2,14 +2,14 @@
      xmlns="http://www.w3.org/2000/svg">
 
   <!-- ===== Message 1 ===== -->
-  <g transform="translate(350, 15)" opacity="0">
+  <g transform="translate(355, 15)" opacity="0">
     <animate attributeName="opacity"
       from="0" to="1"
       dur="0.5s"
       begin="0.5s"
       fill="freeze"/>
 
-    <rect width="230" height="40" rx="18" fill="#0078D4"/>
+    <rect width="210" height="40" rx="18" fill="#0078D4"/>
     <text x="15" y="26"
           fill="#ffffff"
           font-size="15"
@@ -27,7 +27,7 @@
       begin="2s"
       fill="freeze"/>
 
-    <rect width="460" height="64" rx="18" fill="#e9e9eb"/>
+    <rect width="410" height="64" rx="18" fill="#e9e9eb"/>
     <text x="18" y="26"
           fill="#242424"
           font-size="15"
@@ -39,14 +39,14 @@
   </g>
 
   <!-- ===== Message 3 ===== -->
-  <g transform="translate(320, 135)" opacity="0">
+  <g transform="translate(330, 135)" opacity="0">
     <animate attributeName="opacity"
       from="0" to="1"
       dur="0.5s"
       begin="4s"
       fill="freeze"/>
 
-    <rect width="260" height="40" rx="18" fill="#0078D4"/>
+    <rect width="235" height="40" rx="18" fill="#0078D4"/>
     <text x="15" y="26"
           fill="#ffffff"
           font-size="15"
@@ -64,7 +64,7 @@
       begin="6s"
       fill="freeze"/>
 
-    <rect width="500" height="82" rx="18" fill="#e9e9eb"/>
+    <rect width="460" height="82" rx="18" fill="#e9e9eb"/>
     <text x="18" y="26"
           fill="#242424"
           font-size="15"
