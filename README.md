@@ -8,11 +8,17 @@
     <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Building+FaceSense+%26+BookFriend;Optimizing+RAG+Pipelines;Exploring+Generative+AI;Crafting+Production+Systems&center=true&vCenter=true" alt="Typing SVG" /></a>
   </p>
 
-  <p align="center">
-    <a href="https://www.linkedin.com/in/senseofomar/"><img width="32px" alt="LinkedIn" title="Connect on LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-    &#8287;&#8287;&#8287;&#8287;
-    <a href="mailto:omarworks247@gmail.com"><img width="32px" alt="Email" title="Email Me" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  </p>
+ <p align="center">
+  <a href="https://www.linkedin.com/in/senseofomar/">
+    <img alt="LinkedIn" title="Connect on LinkedIn"
+      src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="mailto:omarworks247@gmail.com">
+    <img alt="Email" title="Email Me"
+      src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
 
 </div>
 
