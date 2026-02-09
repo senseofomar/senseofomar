@@ -27,10 +27,11 @@
 ---
 
 ## 🚀 What I'm up to
-- 🔭 Building **BookFriend** — a production-grade RAG system for intelligent book querying
-- 🌱 Deep-diving into **retrieval strategies, vector embeddings, and semantic search**
-- 👯 Open to collaboration on **end-to-end AI systems & infra-aware ML**
-- 🛠️ Previously built **FaceSense**, a real-time emotion analysis pipeline
+- Designing and iterating on **production-grade RAG systems**, with an emphasis on retrieval quality, grounding, and system reliability
+- Evolving **BookFriend** into a scalable, API-first platform for intelligent book interaction across clients
+- Actively working on **hallucination reduction**, context boundaries, and evaluation strategies for LLM-based systems
+- Exploring the intersection of **Computer Vision and system design**, building pipelines that move beyond demos into real usage
+, a real-time emotion analysis pipeline
 
 ---
 
