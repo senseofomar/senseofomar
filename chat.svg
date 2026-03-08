@@ -1,78 +1,122 @@
-<svg width="600" height="300" viewBox="0 0 600 300"
+<svg width="600" height="320" viewBox="0 0 600 320"
      xmlns="http://www.w3.org/2000/svg">
 
-  <!-- ===== Message 1 ===== -->
-  <g transform="translate(355, 15)" opacity="0">
-    <animate attributeName="opacity"
-      from="0" to="1"
-      dur="0.5s"
-      begin="0.5s"
-      fill="freeze"/>
+  <defs>
+    <!-- Blue bubble gradient -->
+    <linearGradient id="blueBubble" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a8cf0"/>
+      <stop offset="100%" style="stop-color:#0061c3"/>
+    </linearGradient>
 
-    <rect width="210" height="40" rx="18" fill="#0078D4"/>
-    <text x="15" y="26"
+    <!-- Card shadow filter -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000018"/>
+    </filter>
+
+    <!-- Avatar shadow -->
+    <filter id="avatarShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#00000022"/>
+    </filter>
+  </defs>
+
+  <!-- ─── Background ─── -->
+  <rect width="600" height="320" rx="16" fill="#f5f7fa"/>
+
+  <!-- subtle header bar -->
+  <rect width="600" height="44" rx="16" fill="#eaecf0"/>
+  <rect y="28" width="600" height="16" fill="#eaecf0"/>
+
+  <!-- traffic lights -->
+  <circle cx="22" cy="22" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="22" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="22" r="6" fill="#28c840"/>
+
+  <!-- title -->
+  <text x="300" y="27"
+        text-anchor="middle"
+        fill="#8a8f99"
+        font-size="12"
+        font-weight="500"
+        font-family="'Segoe UI', system-ui, sans-serif"
+        letter-spacing="0.3">Chat</text>
+
+  <!-- ─── Message 1  (right / user) ─── -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.6s" fill="freeze"/>
+
+    <!-- Avatar placeholder (right side) -->
+    <circle cx="574" cy="90" r="14" fill="url(#blueBubble)" filter="url(#avatarShadow)"/>
+    <text x="574" y="95" text-anchor="middle" fill="#fff" font-size="12" font-family="sans-serif">👤</text>
+
+    <!-- Bubble -->
+    <g filter="url(#shadow)">
+      <rect x="348" y="68" width="212" height="44" rx="20" fill="url(#blueBubble)"/>
+    </g>
+    <text x="363" y="94"
           fill="#ffffff"
-          font-size="15"
+          font-size="14"
           font-weight="600"
-          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+          font-family="'Segoe UI', system-ui, sans-serif">
       Tell me about yourself!
     </text>
   </g>
 
-  <!-- ===== Message 2 ===== -->
-  <g transform="translate(20, 60)" opacity="0">
-    <animate attributeName="opacity"
-      from="0" to="1"
-      dur="0.5s"
-      begin="2s"
-      fill="freeze"/>
+  <!-- ─── Message 2  (left / bot) ─── -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.2s" fill="freeze"/>
 
-    <rect width="410" height="64" rx="18" fill="#e9e9eb"/>
-    <text x="18" y="26"
-          fill="#242424"
-          font-size="15"
+    <!-- Bot avatar -->
+    <circle cx="26" cy="145" r="14" fill="#1a8cf0" filter="url(#avatarShadow)"/>
+    <text x="26" y="150" text-anchor="middle" fill="#fff" font-size="13" font-family="sans-serif">🤖</text>
+
+    <!-- Bubble -->
+    <g filter="url(#shadow)">
+      <rect x="46" y="122" width="420" height="66" rx="20" fill="#ffffff"/>
+    </g>
+    <text fill="#1c1c1e"
+          font-size="14"
           font-weight="500"
-          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
-      <tspan x="18" dy="0">Hey! I'm a self-taught dev &amp; aspiring AI Engineer</tspan>
-      <tspan x="18" dy="22">in my final year. I love solving hard problems. ⚡</tspan>
+          font-family="'Segoe UI', system-ui, sans-serif">
+      <tspan x="64" y="148">Hey! I'm a self-taught dev &amp; aspiring AI Engineer</tspan>
+      <tspan x="64" dy="24">in my final year. I love solving hard problems. ⚡</tspan>
     </text>
   </g>
 
-  <!-- ===== Message 3 ===== -->
-  <g transform="translate(330, 135)" opacity="0">
-    <animate attributeName="opacity"
-      from="0" to="1"
-      dur="0.5s"
-      begin="4s"
-      fill="freeze"/>
+  <!-- ─── Message 3  (right / user) ─── -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="4s" fill="freeze"/>
 
-    <rect width="235" height="40" rx="18" fill="#0078D4"/>
-    <text x="15" y="26"
+    <circle cx="574" cy="218" r="14" fill="url(#blueBubble)" filter="url(#avatarShadow)"/>
+    <text x="574" y="223" text-anchor="middle" fill="#fff" font-size="12" font-family="sans-serif">👤</text>
+
+    <g filter="url(#shadow)">
+      <rect x="330" y="196" width="230" height="44" rx="20" fill="url(#blueBubble)"/>
+    </g>
+    <text x="345" y="222"
           fill="#ffffff"
-          font-size="15"
+          font-size="14"
           font-weight="600"
-          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+          font-family="'Segoe UI', system-ui, sans-serif">
       What are you building lately?
     </text>
   </g>
 
-  <!-- ===== Message 4 ===== -->
-  <g transform="translate(20, 185)" opacity="0">
-    <animate attributeName="opacity"
-      from="0" to="1"
-      dur="0.5s"
-      begin="6s"
-      fill="freeze"/>
+  <!-- ─── Message 4  (left / bot) ─── -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="5.8s" fill="freeze"/>
 
-    <rect width="460" height="82" rx="18" fill="#e9e9eb"/>
-    <text x="18" y="26"
-          fill="#242424"
-          font-size="15"
+    <circle cx="26" cy="272" r="14" fill="#1a8cf0" filter="url(#avatarShadow)"/>
+    <text x="26" y="277" text-anchor="middle" fill="#fff" font-size="13" font-family="sans-serif">🤖</text>
+
+    <g filter="url(#shadow)">
+      <rect x="46" y="248" width="494" height="56" rx="20" fill="#ffffff"/>
+    </g>
+    <text fill="#1c1c1e"
+          font-size="14"
           font-weight="500"
-          font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
-      <tspan x="18" dy="0">I'm deep into RAG systems right now. 🛠️</tspan>
-      <tspan x="18" dy="22">Building <tspan font-weight="600">BookFriend</tspan> to chat with books, and refining</tspan>
-      <tspan x="18" dy="22"><tspan font-weight="600">FaceSense</tspan> for real-time emotion recognition.</tspan>
+          font-family="'Segoe UI', system-ui, sans-serif">
+      <tspan x="64" y="271">I'm deep into RAG systems 🛠️  Building </tspan><tspan font-weight="700">BookFriend</tspan><tspan> to chat</tspan>
+      <tspan x="64" dy="22">with books &amp; refining </tspan><tspan font-weight="700">FaceSense</tspan><tspan> for emotion recognition.</tspan>
     </text>
   </g>
 
