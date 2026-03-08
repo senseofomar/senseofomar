@@ -2,23 +2,23 @@
 
 <img src="https://github.com/senseofomar/senseofomar/blob/main/chat.svg" width="600" />
 
-<h2>AI Engineer | Systems Thinker | RAG Specialist</h2>
+<br/>
+
+### AI Engineer &nbsp;·&nbsp; Systems Thinker &nbsp;·&nbsp; RAG Specialist
 
 <p>
-<a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=520&lines=Building+production-grade+AI+systems;Designing+RAG+pipelines+that+scale;From+research+to+shipping+code;Thinking+in+systems%2C+not+demos&center=true" />
+<a href="https://readme-typing-svg.demolab.com">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=520&center=true&lines=Building+production-grade+AI+systems;Designing+RAG+pipelines+that+scale;From+research+to+shipping+code;Thinking+in+systems%2C+not+demos" />
 </a>
 </p>
 
 <p>
 <a href="https://www.linkedin.com/in/senseofomar/">
-<img alt="LinkedIn"
-     src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;
 <a href="mailto:omarworks247@gmail.com">
-<img alt="Email"
-     src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+<img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 </p>
 
@@ -26,50 +26,58 @@
 
 ---
 
-## 🚀 What I'm up to
-- Designing and iterating on **production-grade RAG systems**, with an emphasis on retrieval quality, grounding, and system reliability
-- Evolving **BookFriend** into a scalable, API-first platform for intelligent book interaction across clients
-- Actively working on **hallucination reduction**, context boundaries, and evaluation strategies for LLM-based systems
-- Exploring the intersection of **Computer Vision and system design**, building pipelines that move beyond demos into real usage
-, a real-time emotion analysis pipeline
+## 🚀 What I'm Building
+
+> Self-taught dev in my final year, obsessed with building AI systems that actually work in production — not just in notebooks.
+
+- 🔍 &nbsp;Designing **production-grade RAG systems** — focused on retrieval quality, grounding, and reliability
+- 📚 &nbsp;Evolving **[BookFriend](https://github.com/senseofomar)** into a scalable, API-first platform for intelligent book interaction
+- 🧪 &nbsp;Researching **hallucination reduction**, context boundaries, and LLM evaluation strategies
+- 👁️ &nbsp;Building **[FaceSense](https://github.com/senseofomar)** — a real-time emotion recognition pipeline bridging CV and system design
 
 ---
 
 ## 🧠 Skills & Technologies
 
-### 🔹 AI, ML & Computer Vision
-- **Python**
-- **PyTorch**
-- **Scikit-learn**
-- **Computer Vision**: OpenCV, MediaPipe, DeepFace
-- **Data Handling**: NumPy, Pandas
+<table>
+<tr>
+<td valign="top" width="50%">
 
-### 🔹 Generative AI & Retrieval Systems
-- **Retrieval-Augmented Generation (RAG)**
-- **Semantic Search**
-- **FAISS**
-- **Vector Embeddings**
-- **Prompt Engineering**
-- **Hallucination-aware & grounded generation**
+**🤖 AI, ML & Computer Vision**
+- Python · PyTorch · Scikit-learn
+- OpenCV · MediaPipe · DeepFace
+- NumPy · Pandas
 
-### 🔹 Backend & Data Engineering
-- **FastAPI**
-- **REST APIs**
-- **MySQL / SQLite**
-- **Stateless, API-first system design**
+**🔗 Generative AI & Retrieval**
+- Retrieval-Augmented Generation (RAG)
+- Semantic Search · FAISS · Vector Embeddings
+- Prompt Engineering
+- Hallucination-aware grounded generation
 
-### 🔹 Engineering & Tooling
-- **Git & GitHub**
-- **Docker**
-- **Bash**
-- **Google Colab / Kaggle**
-- **Streamlit (for prototyping & dashboards)**
+</td>
+<td valign="top" width="50%">
+
+**⚙️ Backend & Data Engineering**
+- FastAPI · REST APIs
+- MySQL · SQLite
+- Stateless, API-first system design
+
+**🛠️ Engineering & Tooling**
+- Git · GitHub · Docker · Bash · Linux
+- Google Colab · Kaggle
+- Streamlit (prototyping & dashboards)
+
+</td>
+</tr>
+</table>
 
 ---
 
-<h2 align="center">🛠️ Tools I Work With</h2>
+## 🛠️ Tools I Work With
 
-<table align="center">
+<div align="center">
+
+<table>
 <tr>
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=python" width="48"/><br/>Python</td>
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=pytorch" width="48"/><br/>PyTorch</td>
@@ -87,3 +95,11 @@
 <td align="center" width="96"><img src="https://skillicons.dev/icons?i=linux" width="48"/><br/>Linux</td>
 </tr>
 </table>
+
+</div>
+
+---
+
+<div align="center">
+<sub>Always building. Always learning. Let's connect. 🤝</sub>
+</div>
