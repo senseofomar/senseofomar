@@ -100,6 +100,13 @@
 
 ---
 
+## 💼 Featured Projects
+
+- **BookFriend** — Scalable, API-first platform for intelligent book interaction
+- **FaceSense** — Real-time emotion recognition pipeline bridging CV and system design
+
+---
+
 <div align="center">
 <sub>Always building. Always learning. Let's connect. 🤝</sub>
 </div>
