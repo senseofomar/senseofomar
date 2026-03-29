@@ -1,41 +1,47 @@
-<svg width="600" height="180" viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="userBubble" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0084ff"/>
-      <stop offset="100%" style="stop-color:#0073e6"/>
-    </linearGradient>
-  </defs>
+<svg width="600" height="280" viewBox="0 0 600 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* Base text styling */
+    .bot-txt { fill: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; }
+    .user-txt { fill: #FFFFFF; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 500; }
+    
+    /* Bubble colors */
+    .bot-bub { fill: #E9E9EB; }
+    .user-bub { fill: #007AFF; }
+    
+    /* Dark Mode overrides */
+    @media (prefers-color-scheme: dark) {
+      .bot-bub { fill: #262628; }
+      .bot-txt { fill: #FFFFFF; }
+      /* User bubble stays blue in dark mode */
+    }
 
-  <!-- Background -->
-  <rect width="600" height="180" fill="#f9f9f9"/>
+    /* Smooth popup animation */
+    .fade-in { opacity: 0; animation: fadeIn 0.4s ease-out forwards; }
+    @keyframes fadeIn { 
+      from { opacity: 0; transform: translateY(8px); } 
+      to { opacity: 1; transform: translateY(0); } 
+    }
+  </style>
 
-  <!-- Message 1: User -->
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.2s" fill="freeze"/>
-    <rect x="395" y="8" width="185" height="18" rx="9" fill="url(#userBubble)"/>
-    <text x="405" y="18" fill="#fff" font-size="12" font-weight="500" font-family="system-ui, -apple-system, sans-serif" dominant-baseline="middle">Tell me about yourself!</text>
+  <g class="fade-in" style="animation-delay: 0.2s">
+    <rect x="403" y="20" width="177" height="38" rx="18" class="user-bub"/>
+    <text x="419" y="44" class="user-txt">Tell me about yourself!</text>
   </g>
 
-  <!-- Message 2: Bot -->
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.8s" fill="freeze"/>
-    <rect x="20" y="35" width="430" height="24" rx="8" fill="#e5e5ea"/>
-    <text x="28" y="43" fill="#000" font-size="12" font-weight="400" font-family="system-ui, -apple-system, sans-serif" dominant-baseline="middle">Hey! I'm a self-taught dev &amp; aspiring AI Engineer in my final year.</text>
-    <text x="28" y="57" fill="#000" font-size="12" font-weight="400" font-family="system-ui, -apple-system, sans-serif" dominant-baseline="middle">I love solving hard problems. ⚡</text>
+  <g class="fade-in" style="animation-delay: 0.8s">
+    <rect x="20" y="70" width="412" height="58" rx="18" class="bot-bub"/>
+    <text x="36" y="94" class="bot-txt">Hey! I'm a self-taught dev &amp; aspiring AI Engineer in my final year.</text>
+    <text x="36" y="114" class="bot-txt">I love solving hard problems. ⚡</text>
   </g>
 
-  <!-- Message 3: User -->
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.6s" fill="freeze"/>
-    <rect x="355" y="75" width="220" height="18" rx="9" fill="url(#userBubble)"/>
-    <text x="365" y="85" fill="#fff" font-size="12" font-weight="500" font-family="system-ui, -apple-system, sans-serif" dominant-baseline="middle">What are you building lately?</text>
+  <g class="fade-in" style="animation-delay: 1.6s">
+    <rect x="363" y="140" width="217" height="38" rx="18" class="user-bub"/>
+    <text x="379" y="164" class="user-txt">What are you building lately?</text>
   </g>
 
-  <!-- Message 4: Bot -->
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.4s" fill="freeze"/>
-    <rect x="20" y="105" width="470" height="24" rx="8" fill="#e5e5ea"/>
-    <text x="28" y="113" fill="#000" font-size="12" font-weight="400" font-family="system-ui, -apple-system, sans-serif" dominant-baseline="middle">I'm deep into RAG systems 🛠️ Building <tspan font-weight="700">BookFriend</tspan> to chat with books</text>
-    <text x="28" y="127" fill="#000" font-size="12" font-weight="400" font-family="system-ui, -apple-system, sans-serif" dominant-baseline="middle">&amp; refining <tspan font-weight="700">FaceSense</tspan> for emotion recognition.</text>
+  <g class="fade-in" style="animation-delay: 2.4s">
+    <rect x="20" y="190" width="422" height="58" rx="18" class="bot-bub"/>
+    <text x="36" y="214" class="bot-txt">I'm deep into RAG systems 🛠️ Building <tspan font-weight="600">BookFriend</tspan> to chat with books</text>
+    <text x="36" y="234" class="bot-txt">&amp; refining <tspan font-weight="600">FaceSense</tspan> for emotion recognition.</text>
   </g>
 </svg>
