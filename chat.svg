@@ -24,23 +24,23 @@
   </style>
 
   <g class="fade-in" style="animation-delay: 0.2s">
-    <rect x="403" y="20" width="177" height="38" rx="18" class="user-bub"/>
-    <text x="419" y="44" class="user-txt">Tell me about yourself!</text>
+    <rect x="395" y="20" width="185" height="38" rx="18" class="user-bub"/>
+    <text x="410" y="44" class="user-txt">Tell me about yourself!</text>
   </g>
 
   <g class="fade-in" style="animation-delay: 0.8s">
-    <rect x="20" y="70" width="412" height="58" rx="18" class="bot-bub"/>
+    <rect x="20" y="70" width="480" height="58" rx="18" class="bot-bub"/>
     <text x="36" y="94" class="bot-txt">Hey! I'm a self-taught dev &amp; aspiring AI Engineer in my final year.</text>
     <text x="36" y="114" class="bot-txt">I love solving hard problems. ⚡</text>
   </g>
 
   <g class="fade-in" style="animation-delay: 1.6s">
-    <rect x="363" y="140" width="217" height="38" rx="18" class="user-bub"/>
-    <text x="379" y="164" class="user-txt">What are you building lately?</text>
+    <rect x="345" y="140" width="235" height="38" rx="18" class="user-bub"/>
+    <text x="360" y="164" class="user-txt">What are you building lately?</text>
   </g>
 
   <g class="fade-in" style="animation-delay: 2.4s">
-    <rect x="20" y="190" width="422" height="58" rx="18" class="bot-bub"/>
+    <rect x="20" y="190" width="490" height="58" rx="18" class="bot-bub"/>
     <text x="36" y="214" class="bot-txt">I'm deep into RAG systems 🛠️ Building <tspan font-weight="600">BookFriend</tspan> to chat with books</text>
     <text x="36" y="234" class="bot-txt">&amp; refining <tspan font-weight="600">FaceSense</tspan> for emotion recognition.</text>
   </g>
