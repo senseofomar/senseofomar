@@ -30,9 +30,9 @@
 > Self-taught dev in my final year, obsessed with building AI systems that actually work in production — not just in notebooks.
 
 - 🔍 &nbsp;Designing **production-grade RAG systems** — focused on retrieval quality, grounding, and reliability
-- 📚 &nbsp;Evolving **[BookFriend](https://github.com/senseofomar)** into a scalable, API-first platform for intelligent book interaction
+- 📚 &nbsp;Evolving **[BookFriend](https://github.com/senseofomar/BookFriend)** into a scalable, API-first platform for intelligent book interaction
 - 🧪 &nbsp;Researching **hallucination reduction**, context boundaries, and LLM evaluation strategies
-- 👁️ &nbsp;Building **[FaceSense](https://github.com/senseofomar)** — a real-time emotion recognition pipeline bridging CV and system design
+- 👁️ &nbsp;Building **[FaceSense](https://github.com/senseofomar/FaceSense)** — a real-time emotion recognition pipeline bridging CV and system design
 
 ---
 
