@@ -30,7 +30,7 @@
 
   <g class="fade-in" style="animation-delay: 0.8s">
     <rect x="20" y="70" width="480" height="58" rx="18" class="bot-bub"/>
-    <text x="36" y="94" class="bot-txt">Hey! I'm a self-taught dev &amp; aspiring AI Engineer in my final year.</text>
+    <text x="36" y="94" class="bot-txt">Hey! I'm a self-taught dev &amp; AI Engineer in my final year.</text>
     <text x="36" y="114" class="bot-txt">I love solving hard problems. ⚡</text>
   </g>
 
