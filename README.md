@@ -4,7 +4,7 @@
 
   <br/>
   
-  <h3>AI Engineer &nbsp;·&nbsp; Systems Thinker &nbsp;·&nbsp; RAG Specialist</h3>
+  <h3>AI Engineer &nbsp;·&nbsp; Systems Designer &nbsp;·&nbsp; RAG Specialist</h3>
   
   <p>
     <a href="https://readme-typing-svg.demolab.com">
